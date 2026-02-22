@@ -64,7 +64,44 @@
 
     </article>
   
-  </section> 
+  </section id="habilidades">
+
+      <h2>Habilidades e Tecnologias</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Tecnologia</th>
+            <th>Nível</th>
+            <th>Descrição</th>
+          </tr> 
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Iniciante</td>
+            <td>Conhecimento sólido em estruturação de páginas web, semântica e acessibilidade.</td>
+          </tr>
+
+          <tr>
+            <td>CSS</td>
+            <td>Iniciante</td>
+            <td>Habilidade em estilização de páginas, layout responsivo e design moderno.</td>
+          </tr>
+
+          <tr>
+            <td>Java</td>
+            <td>Iniciante</td>
+            <td>Conhecimento inicial em programação orientada a objetos e desenvolvimento de aplicações.</td>
+          </tr>
+        </tbody>
+
+      </table>
+
+  <section>
+
+  </section>
 
   <footer>
     <p>Direitos reservados a Douglas</p>
@@ -75,14 +112,43 @@
 
       <p>Caso tenha um projeto entre em contato</p>
 
-      <address>
-      Telefone: <a href="tel:+5549999260590">+55 (49)99926-0590</a> <br>
-      E-mail <a href="mailto:douglasrokoskidossantos@gmail.com">douglasrokoskidossantos@gmail.com</a> <br>
-      </address>
+      <form action="">
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="nome" required> <br>
+
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" name="email" required> <br>
+
+        <label for="telefone">Telefone: </label>
+        <input type="tel" id="telefone" name="telefone" required > 
+        
+        <label for="assunto">Assunto: </label>
+        <select name="assunto" id="assunto">
+          <option value="orcamento">Orçamento</option>
+          <option value="duvida">Dúvida</option>
+          <option value="outro">Outro</option>
+        </select>
+        
+        <br>
+
+        <label for="mensagem">Mensagem: </label>
+        <textarea id="mensagem" name="mensagem" rows="5" cols="50" required></textarea> <br>
+
+        <input type="checkbox" id="inscricao" name="inscricao">
+        <label for="inscricao">Desejo me inscrever na newsletter</label>
+
+        <br>
+ 
+        <input type="submit" value="Enviar mensagem">
+
+        <input type="date">
+
+      </form>
+
 
     </section>
     
   </footer>
-</body>
+</body>           
 
 </html>
